@@ -3088,7 +3088,7 @@
         "templates/navigation_buttons.yaml",
         "version.yaml"
       ],
-      "hash": "1f89e7e7e19b8a6e17abfe812483186aacb36ec4350319c9826262ef52735261"
+      "hash": "0bfb1eab4f4bd2ce1cf06bb1a9101a763d6eee022dea45f5e6c51f767a956932"
     },
     "concepts/ai-agent-docs": {
       "files": [
@@ -3208,7 +3208,7 @@
         "plugins/plugins-introduction.yaml",
         "templates/navigation_buttons.yaml"
       ],
-      "hash": "701ee23a09bff4cac295c0b09c4866f8c646f55aedb7f3bac8518c3fe37e56e9"
+      "hash": "0e7a66874138492cbe6f861ae3210993391ccc544b9612ed806470907f21e269"
     },
     "plugins/plugins-dev": {
       "files": [
@@ -3543,7 +3543,7 @@
         "blocks/input/MultipleSelector.yaml",
         "templates/blocks/gallery.yaml.njk"
       ],
-      "hash": "3ea8ea64ee07a1181acc61324dd214fad5ae516a5cb11b928e3bec3e93831c9e"
+      "hash": "ab08e2cadbeed68feca904738f80e22c4718a821ae3b3e2bf0ebed5ef3e03266"
     },
     "input-blocks/numberinput": {
       "files": [
@@ -3552,7 +3552,7 @@
         "blocks/input/NumberInput.yaml",
         "templates/blocks/gallery.yaml.njk"
       ],
-      "hash": "e780aa046cda7212abf7f185ea838ebd863cc48a853a307fa720a6f3ad8eee5a"
+      "hash": "9152e7645ce1ed68822af68ebb23fb530a4fc9feb93b2cf0dc91cf3a5e0d1099"
     },
     "input-blocks/pagination": {
       "files": [
@@ -3688,7 +3688,7 @@
         "blocks/input/Selector.yaml",
         "templates/blocks/gallery.yaml.njk"
       ],
-      "hash": "73ced43299f2e5d40787cdc6ba0e12fdb5e621d7cb2f4e23361f0fe694a39dba"
+      "hash": "70a7e7f9926236dd5e27c9b57081f6b89b766e70854b6ee84904210fce2fb56a"
     },
     "input-blocks/switch": {
       "files": [
@@ -4052,7 +4052,7 @@
         "blocks/display/Paragraph.yaml",
         "templates/blocks/gallery.yaml.njk"
       ],
-      "hash": "44872cae8af7cc69978e17dc4476498ba9aaa026d6173c2353cf01f59932c0ca"
+      "hash": "35e1c32a73c446f2b12335ef72d3979db899be557bcc24cb81020a35983a2db1"
     },
     "display-blocks/pollingtimer": {
       "files": [
@@ -4180,7 +4180,7 @@
         "blocks/display/TableGuide.md",
         "templates/blocks/gallery.yaml.njk"
       ],
-      "hash": "47140f68ccb8e230d37e77446fba6e2351915264cb1976bc3456d25960fa7a59"
+      "hash": "4eb26ac2c4a7f5af742e1cd1aad40571307c106a071c70806e18f0949e372676"
     },
     "display-blocks/tablelight": {
       "files": [
@@ -4208,7 +4208,7 @@
         "blocks/display/Title.yaml",
         "templates/blocks/gallery.yaml.njk"
       ],
-      "hash": "efaefdb4f7f68b7704f365159ac4f8f5dfbb84c5638f61d5520c801ec5e1411e"
+      "hash": "891371d483b3e39cdbd0bac330af0069e7eea74d425eb658f706bebedbc8dc3c"
     },
     "display-blocks/tour": {
       "files": [
@@ -4316,7 +4316,7 @@
         "blocks/container/Descriptions.yaml",
         "templates/blocks/gallery.yaml.njk"
       ],
-      "hash": "1194f1f5c0f201afd0ee9715c11429a6362810544de45183572aa63288df90eb"
+      "hash": "8d92f9915a33566b2e2b044550d3d72678d824e915d3882961ea47e26f87d3cb"
     },
     "container-blocks/drawer": {
       "files": [
@@ -4559,7 +4559,7 @@
         "blocks/list/ControlledList.yaml",
         "templates/blocks/gallery.yaml.njk"
       ],
-      "hash": "473a06e01cda52c840029ff20191c6d545cd994b0a966d237ba7a03282d813dc"
+      "hash": "98527dee38146e0fbe475d95e6f8710571635265c00547c9f3b665320769804e"
     },
     "list-blocks/list": {
       "files": [
