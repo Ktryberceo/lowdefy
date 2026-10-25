@@ -9656,10 +9656,12 @@
                 },
                 "extra": {
                   "type": "string",
+                  "textKind": "html",
                   "description": "Extra text to display beneath the content - supports html."
                 },
                 "title": {
                   "type": "string",
+                  "textKind": "html",
                   "description": "Label title - supports html."
                 },
                 "tooltip": {
@@ -9811,6 +9813,7 @@
             },
             "title": {
               "type": "string",
+              "textKind": "html",
               "description": "Title to describe the input component, if no title is specified the block id is displayed - supports html."
             },
             "variant": {
@@ -10599,10 +10602,12 @@
                 },
                 "extra": {
                   "type": "string",
+                  "textKind": "html",
                   "description": "Extra text to display beneath the content - supports html."
                 },
                 "title": {
                   "type": "string",
+                  "textKind": "html",
                   "description": "Label title - supports html."
                 },
                 "tooltip": {
@@ -10694,7 +10699,8 @@
                   "type": "array",
                   "description": "Options can either be an array of primitive values, on an array of label, value pairs - supports html.",
                   "items": {
-                    "type": "string"
+                    "type": "string",
+                    "textKind": "html"
                   }
                 },
                 {
@@ -10719,6 +10725,7 @@
                     "properties": {
                       "label": {
                         "type": "string",
+                        "textKind": "html",
                         "description": "Value label shown to user - supports html."
                       },
                       "value": {
@@ -10935,6 +10942,7 @@
             },
             "title": {
               "type": "string",
+              "textKind": "html",
               "description": "Title to describe the input component, if no title is specified the block id is displayed - supports html."
             },
             "variant": {
@@ -12307,10 +12315,12 @@
                 },
                 "extra": {
                   "type": "string",
+                  "textKind": "html",
                   "description": "Extra text to display beneath the content - supports html."
                 },
                 "title": {
                   "type": "string",
+                  "textKind": "html",
                   "description": "Label title - supports html."
                 },
                 "tooltip": {
@@ -12405,6 +12415,7 @@
             },
             "title": {
               "type": "string",
+              "textKind": "html",
               "description": "Title to describe the input component, if no title is specified the block id is displayed - supports html."
             },
             "variant": {
@@ -13082,10 +13093,12 @@
                 },
                 "extra": {
                   "type": "string",
+                  "textKind": "html",
                   "description": "Extra text to display beneath the content - supports html."
                 },
                 "title": {
                   "type": "string",
+                  "textKind": "html",
                   "description": "Label title - supports html."
                 },
                 "tooltip": {
@@ -13307,6 +13320,7 @@
             },
             "title": {
               "type": "string",
+              "textKind": "html",
               "description": "Number input label title - supports html."
             },
             "variant": {
@@ -14048,10 +14062,12 @@
                 },
                 "extra": {
                   "type": "string",
+                  "textKind": "html",
                   "description": "Extra text to display beneath the content - supports html."
                 },
                 "title": {
                   "type": "string",
+                  "textKind": "html",
                   "description": "Label title - supports html."
                 },
                 "tooltip": {
@@ -14126,6 +14142,7 @@
             },
             "title": {
               "type": "string",
+              "textKind": "html",
               "description": "Title to describe the input component, if no title is specified the block id is displayed - supports html."
             },
             "uncheckedIcon": {
@@ -15576,10 +15593,12 @@
                 },
                 "extra": {
                   "type": "string",
+                  "textKind": "html",
                   "description": "Extra text to display beneath the content - supports html."
                 },
                 "title": {
                   "type": "string",
+                  "textKind": "html",
                   "description": "Label title - supports html."
                 },
                 "tooltip": {
@@ -15650,6 +15669,7 @@
             },
             "title": {
               "type": "string",
+              "textKind": "html",
               "description": "Title to describe the input component, if no title is specified the block id is displayed - supports html."
             },
             "variant": {
