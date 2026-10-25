@@ -16,6 +16,7 @@
 
 import React, { useEffect, useRef } from 'react';
 import { cn } from '@lowdefy/block-utils';
+import { type } from '@lowdefy/helpers';
 
 import SearchHighlight from './SearchHighlight.js';
 
@@ -43,6 +44,15 @@ function SearchResults({
   const titleField = resultMapping?.title ?? 'title';
   const descField = resultMapping?.description;
   const iconField = resultMapping?.icon;
+
+  // A result's icon field holds an icon name or Icon properties ({ name, color }), so an app can
+  // show what each result is and colour it by its state.
+  function itemIconProperties(item) {
+    const value = iconField ? item[iconField] : null;
+    if (type.isString(value) && value !== '') return { name: value, title: '' };
+    if (type.isObject(value) && !type.isNone(value.name)) return { title: '', ...value };
+    return { name: 'document', title: '' };
+  }
 
   let flatIndex = 0;
 
@@ -86,10 +96,7 @@ function SearchResults({
                   className={classNames.itemIcon}
                   style={{ color: 'var(--ant-color-text-secondary)', ...styles.itemIcon }}
                 >
-                  <Icon
-                    blockId={`${blockId}_item_icon`}
-                    properties={{ name: 'document', title: '' }}
-                  />
+                  <Icon blockId={`${blockId}_item_icon`} properties={itemIconProperties(item)} />
                 </span>
                 <div className="lf-search-item-content">
                   <div
