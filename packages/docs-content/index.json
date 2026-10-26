@@ -3088,7 +3088,7 @@
         "templates/navigation_buttons.yaml",
         "version.yaml"
       ],
-      "hash": "e18d7078afd809032646863f065cc11f7c89e8925e39fe95c77895c1374d3fae"
+      "hash": "279d38b55267661c9816ff27c6990040b9260ef23c02c8aba41ab233335588cf"
     },
     "concepts/ai-agent-docs": {
       "files": [
@@ -3208,7 +3208,7 @@
         "plugins/plugins-introduction.yaml",
         "templates/navigation_buttons.yaml"
       ],
-      "hash": "a6ff48ec4c34c55b9392cdf2ad47d5cec172354af31ae3d402481c1dacb29fe5"
+      "hash": "cf6c6df31e2f74a6edc8f6733b7aed0dbc1840499cf6ef8def573cd057cdaf2e"
     },
     "plugins/plugins-dev": {
       "files": [
